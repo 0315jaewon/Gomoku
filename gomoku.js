@@ -48,7 +48,7 @@ function createStone(x, y, x_abs, y_abs) {
 
     // check if position is occupied
     if (isOccupied(x_abs,y_abs)) {
-        console.log('This position is occupied');
+        alert("This position is occupied.");
         return;
     }
 
